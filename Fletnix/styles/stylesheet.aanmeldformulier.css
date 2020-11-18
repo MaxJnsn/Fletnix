@@ -30,39 +30,3 @@ header li{
     display: inline-block;
     margin-right: 30px;
 }
-
-div#account{
-    float: right; 
-    padding: 10px 0;
-}
-
-header a{
-    font-size: 150%;
-    text-decoration: none;
-    color: #f46d25;
-    margin-right: 50px;
-    margin-left: 5px;
-}
-
-.grid{
-    display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px));
-    text-align: center;
-}
-
-.grid-item:nth-child(4){
-    grid-column-start: 4;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-
-main img{
-    width: 400px;
-    height: 200px;
-    outline-style: solid;
-    outline-width: 6px;
-    outline-color: #f46d25;
-    margin: 15px;
-    box-shadow: 8px 8px 15px black;
-}
