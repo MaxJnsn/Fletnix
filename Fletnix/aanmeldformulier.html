@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>FLETNIX</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles\stylesheet.aanmeldformulier.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li><div id= Logo><a href="index.html">FLETNIX</a></div></li>
+            <li><a href="overzicht.html">Series</a></li>
+            <li>Films</li>
+            <li>Recent</li>
+                <div id = "account"><li><a href="aanmeldformulier.html">Mijn account</a></li><img src="images/user-icon-png-6.png" alt="avatar"></img></div>
+        </nav>
+    </header>
+    <main>
+        <h1>Aanmeldformulier</h1>
+        <h2>Persoonlijke gegevens</h2>
+        <form>
+            <label for="Aanhef">Aanhef:</label><br>
+            <input type="radio" id="Mevrouw" name="Aanhef" value="Mevrouw">
+            <label for="Mevrouw">Mevrouw</label><br>
+            <input type="radio" id="De heer" name="Aanhef" value="De heer">
+            <label for="De heer">De heer</label><br>
+            <input type="radio" id="Boeing AH-64 Apache Attack Helicopter" name="Aanhef" value="Boeing AH-64 Apache Attack Helicopter">
+            <label for="Boeing AH-64 Apache Attack Helicopter">Boeing AH-64 Apache Attack Helicopter</label>
+        </form>
+        <form>
+            <label for="vnaam">Voornaam:</label><br>
+            <input type="text" id="vnaam" name="vnaam"><br>
+            <label for="tvoegsel">Tussenvoegsel:</label><br>
+            <input type="text" id="tvoegsel" name="tvoegsel"><br>
+            <label for="anaam">Achternaam:</label><br>
+            <input type="text" id="anaam" name="anaam"><br><br>
+        </form>
+        <form>
+            <label for="pcode">Postcode:</label><br>
+            <input type="text" id="pcode" name="Postcode"><br>
+            <label for="hnmmr">Huisnummer:</label><br>
+            <input type="number" id="hnmmr" name="Huisnummer"><br>
+        </form>
+        <form>
+            <label for="gdatum">Geboortedatum:</label><br>
+            <input type="date" id="gdatum" name="Geboortedatum"><br>
+        </form>
+        <form>
+           <label for="tnummer">Telefoonnummer:</label><br>
+           <input type="tel" id="tnummer" name="Telefoonnummer"><br>
+        </form>
+        <form>
+            <label for="rnummer">Rekeningnummer:</label><br>
+            <input type="text" id="rnummer" name="Rekeningnummer"><br>
+        </form>
+
+        <h3>Inloggegevens</h3>
+        <form>
+            <label for="email">E-mailadres:</label><br>
+            <input type="email" id="email" name="E-mailadres"><br>
+        </form>
+        <form>
+            <label for="wwoord">Wachtwoord</label><br>
+            <input type="password" id="wwoord" name="Wachtwoord"><br>
+            <label for="hwwoord">Herhaal wachtwoord</label><br>
+            <input type="password" id="hwwoord" name="Herhaal wachtwoord"><br>
+        </form>
+        <form>
+            <label for="vwaarde">Ik heb de voorwaarden gelezen en accepteer deze:</label><br>
+            <input type="checkbox" id="vwaarde" name="Voorwaarde"><br>
+        </form>
+        <form>
+            <input type="submit" value="Verzenden">
+        </form>
+    </main>
+</body>
+
+</html>
