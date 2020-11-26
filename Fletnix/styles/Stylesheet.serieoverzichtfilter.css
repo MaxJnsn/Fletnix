@@ -51,41 +51,65 @@ div#Logo a{
     margin-left: 5px;
 }
 
-h1{
-    font-size: 150%;
+h1,
+h2,
+h3{
+    margin-left: 30px;
+    font-size: 30px;
+    text-shadow: 3px 2px 10px black;
+}
+
+.flexbox{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.flexbox-item{
     text-align: center;
-    margin-bottom: 2px;
-    margin-top: 2px;
-}
-
-div#Nickelodeon{
-    color: #f46d25;
-    font-size: 75%;
-}
-
-h2{
-    font-size: 150%;
-    text-align: center;
-    margin-bottom: 2px;
-    margin-top: 50px;
-}
-
-main{
-    text-align: center;
-}
-
-main li {
-    display: inline-block;
-    font-size: 150%;
-    margin-right: 50px;
-    
+    margin: 30px;
 }
 
 main img{
-    width: 200px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
     outline-style: solid;
+    outline-width: 6px;
     outline-color: #f46d25;
-    margin: 25px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 7px 10px 15px black;
+}
+
+p{
+    font-size: 150%
+}
+
+.menu img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:-50px;
+    left: 150px;
+}
+
+.menu{
+    color: black;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 81px;
+    left: 0;
+    background-color: lightgray;
+    padding-top: 60px;
+}
+
+.menu li {
+    list-style-type: none;
+    position: relative;
+    left:10px;
+    top:-100px;
+    font-size: 150%
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
 }

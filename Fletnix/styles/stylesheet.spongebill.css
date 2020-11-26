@@ -15,6 +15,9 @@ header img{
 }
 
 header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
     padding: 20px 20px;
     background-color: white;
     text-align: left;
@@ -183,4 +186,3 @@ div#Logo a{
 .flexcontainer{
   display: flex;
 }
-
