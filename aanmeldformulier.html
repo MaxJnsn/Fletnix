@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>FLETNIX</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles\stylesheet.aanmeldformulier.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li>
+                <div id=Logo><a href="index.html">FLETNIX</a></div>
+            </li>
+            <li><a href="serieoverzicht.html">Series</a></li>
+            <li><a href="filmoverzicht.html">Films</a></li>
+            <li>Recent</li>
+            <div id="account">
+                <li><a href="aanmeldformulier.html">Mijn account</a></li><img src="images/user-icon-png-6.png"
+                    alt="avatar"></img>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Aanmeldformulier</h1>
+        <div class=flex-container>
+            <form>
+                <label for="Aanhef">Aanhef:</label><br><br>
+                <div><input type="radio" id="Mevrouw" name="Aanhef" value="Mevrouw">
+                <label for="Mevrouw">Mevrouw</label></div>
+                <div><input type="radio" id="De heer" name="Aanhef" value="De heer">
+                <label for="De heer">De heer</label></div>
+                <div><input type="radio" id="Anders" name="Aanhef" value="Anders">
+                <label for="Anders">Anders</label></div><br>
+                <div><label for="vnaam">Voornaam:</label>
+                <input type="text" id="vnaam" name="vnaam" size="15" required></div>
+                <div><label for="tvoegsel">Tussenvoegsel:</label>
+                <input type="text" id="tvoegsel" name="tvoegsel" size="5"></div>
+                <div><label for="anaam">Achternaam:</label>
+                <input type="text" id="anaam" name="anaam" required></div><br>
+                <div><label for="pcode">Postcode:</label>
+                <input type="text" id="pcode" name="Postcode" size="5" required></div>
+                <div><label for="hnmmr">Huisnummer:</label>
+                <input type="number" id="hnmmr" name="Huisnummer" size="5" required></div>
+                <div><label for="gdatum">Geboortedatum:</label>
+                <input type="date" id="gdatum" name="Geboortedatum" required></div>
+                <div><label for="tnummer">Telefoonnummer:</label>
+                <input type="tel" id="tnummer" name="Telefoonnummer" size=15 required></div>
+                <div><label for="rnummer">Rekeningnummer:</label>
+                <input type="text" id="rnummer" name="Rekeningnummer" size=15 required></div>
+                <h3>Inloggegevens:</h3>
+                <div><label for="email">E-mailadres:</label>
+                <input type="email" id="email" name="E-mailadres" required></div>
+                <div><label for="wwoord">Wachtwoord:</label>
+                <input type="password" id="wwoord" name="Wachtwoord" size="15" required></div>
+                <div><label for="hwwoord">Herhaal wachtwoord:</label>
+                <input type="password" id="hwwoord" name="Herhaal wachtwoord" size="15" required></div><br>
+                <div></div><label for="vwaarde">Ik heb de voorwaarden gelezen en accepteer deze:</label>
+                <input type="checkbox" id="vwaarde" name="Voorwaarde" required></div><br>
+                <h4>Selecteer product:</h4>
+                <div class=flexboxAbbo>
+                    <label for="Product"></label>
+                    <div class=flexboxitem><p>Basis</p> 
+                    <li>Kijk op 1 scherm tegelijk.</li>
+                    <li>HD kwaliteit.</li><br><br><input type="radio" id="Basis" name="Product" value="Basis"required>
+                    <div id= prijs><p>€4,99 per maand</p></div></div>
+                    <div class=flexboxitem><p>Premium</p> 
+                    <li>Kijk op 3 schermen tegelijk.</li>
+                    <li>HD+ kwaliteit.</li>
+                    <li>Kijk zonder internet.</li> <br><input type="radio" id="Premium" name="Product" value="Premium"required>
+                    <div id= prijs><p>€6,99 per maand</p></div></div>
+                    <div class=flexboxitem><p>Pro</p>
+                    <li>Kijk op 5 schermen tegelijk.</li>                 
+                    <li>4K kwaliteit.</li>     
+                    <li>Kijk zonder internet.</li>
+                    <li>Gratis extra maand!</li> <input type="radio" id="Pro" name="Product" value="Pro"required>
+                    <div id= prijs><p>€9,99 per maand</p></div></div>
+                </div>
+                <div><input type="submit" value="Verzenden"></div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
