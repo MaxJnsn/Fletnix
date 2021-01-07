@@ -7,51 +7,56 @@ body{
 }
 
 header img{
-    position: relative;
-    top:-10px;
-    float: right;
     width: 50px;
     height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    position: relative;
+    top:-10px;
 }
 
 header {
     position: sticky;
     position: -webkit-sticky;
-    top: 0;
-    padding: 20px 20px;
+    padding: 5px 20px 20px 20px;
     background-color: white;
-    text-align: left;
     margin-bottom: 50px;
     box-shadow: 1px 1px 5px black;
 }
 
-header li{
+header p{
+    display:inline;
     color: #000000;
     font-size: 150%;
     font-weight: bold;
-    display: inline-block;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
-header li a{
+header a{
     text-decoration: none;
     color: #000000;
 }
 
-div#account{
-    float: right; 
-    padding: 10px 0;
-}
-
-div#Logo a{
-    font-size: 150%;
+header h2{
     text-decoration: none;
-    color: #f46d25;
-    margin-right: 5px;
-    margin-left: 5px;
+    color: #000000;
+    font-size: 150%;
+    float: right;
+    position: relative;
+    top:-20px;
 }
 
-h1{
+header h1 a{
+    color: #f46d25;
+    float: left;
+    position: relative;
+    top:-10px;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+main h1{
     font-size: 150%;
     text-align: center;
     margin-bottom: 2px;
@@ -60,10 +65,9 @@ h1{
 
 div#Nickelodeon{
     color: #f46d25;
-    font-size: 75%;
 }
 
-h2{
+main h2{
     font-size: 150%;
     text-align: center;
     margin-bottom: 2px;
@@ -75,7 +79,7 @@ main{
 }
 
 main li {
-    display: inline-block;
+    display: inline;
     font-size: 150%;
     margin-right: 50px;
     
@@ -88,4 +92,14 @@ main img{
     outline-color: #f46d25;
     margin: 25px;
     box-shadow: 5px 5px 10px black;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p {
+    font-size: 150%;
 }

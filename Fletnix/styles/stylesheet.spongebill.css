@@ -7,48 +7,53 @@ body{
 }
 
 header img{
-    position: relative;
-    top:-10px;
-    float: right;
-    width: 50px;
-    height: 40px;
+  width: 50px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: right;
+  position: relative;
+  top:-10px;
 }
 
 header {
   position: sticky;
   position: -webkit-sticky;
-  top: 0;
-    padding: 20px 20px;
-    background-color: white;
-    text-align: left;
-    margin-bottom: 50px;
-    box-shadow: 1px 1px 5px black;
+  padding: 5px 20px 20px 20px;
+  background-color: white;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 5px black;
 }
 
-header li{
-    color: #000000;
-    font-size: 150%;
-    font-weight: bold;
-    display: inline-block;
-    margin-right: 30px;
+header p{
+  display:inline;
+  color: #000000;
+  font-size: 150%;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
-header li a{
-    text-decoration: none;
-    color: #000000;
+header a{
+  text-decoration: none;
+  color: #000000;
 }
 
-div#account{
-    float: right; 
-    padding: 10px 0;
+header h2{
+  text-decoration: none;
+  color: #000000;
+  font-size: 150%;
+  float: right;
+  position: relative;
+  top:-20px;
 }
 
-div#Logo a{
-    font-size: 150%;
-    text-decoration: none;
-    color: #f46d25;
-    margin-right: 5px;
-    margin-left: 5px;
+header h1 a{
+  color: #f46d25;
+  float: left;
+  position: relative;
+  top:-10px;
+  margin-right: 30px;
+  padding: 5px;
 }
 
 .drop {
@@ -94,7 +99,7 @@ div#Logo a{
     display: block;
   }
 
-  h1{
+ main h1{
     text-align: center;
     text-shadow: 3px 2px 10px black;
 }
